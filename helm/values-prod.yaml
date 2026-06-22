@@ -40,7 +40,7 @@ services:
   execution:
     name: execution-service
     image: execution-service
-    tag: v2
+    tag: v1.0.0
     port: 8002
     resources:
       requests:
