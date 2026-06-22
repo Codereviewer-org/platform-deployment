@@ -49,7 +49,7 @@ services:
   ai:
     name: ai-service
     image: ai-service
-    tag: v2
+    tag: 24fe150feda55bd1eab6312c8504b5eb62647feb
     port: 8003
     resources:
       requests:
