@@ -68,7 +68,7 @@ services:
     name: frontend
     serviceName: frontend-service
     image: frontend
-    tag: v2
+    tag: f4252277a22c279b33e50a83b37949669d4cd17e
     port: 8501
     resources:
       requests:
