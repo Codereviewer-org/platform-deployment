@@ -58,7 +58,7 @@ services:
   review:
     name: review-service
     image: review-service
-    tag: v2
+    tag: 54c3279c711ccddbaa64efbf538513d4c4e3ea2f
     port: 8004
     resources:
       requests:
