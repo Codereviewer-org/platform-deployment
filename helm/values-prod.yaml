@@ -31,7 +31,7 @@ services:
   auth:
     name: auth-service
     image: auth-service
-    tag: v1.1.0
+    tag: v1.2.0
     port: 8001
     resources:
       requests:
