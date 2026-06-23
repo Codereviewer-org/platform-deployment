@@ -31,7 +31,7 @@ services:
   auth:
     name: auth-service
     image: auth-service
-    tag: ff795dfd2f3c0ad5ae51e05e7d72f595672984e4
+    tag: 6d2a9ff8c7b4728b464744e6fd54aaf36c6ea471
     port: 8001
     resources:
       requests:
