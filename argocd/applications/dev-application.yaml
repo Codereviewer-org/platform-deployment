@@ -8,8 +8,8 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/Thanu-sri1/Code-reviewer-AI.git
-    targetRevision: test
+    repoURL: https://github.com/Codereviewer-org/platform-deployment.git
+    targetRevision: main
     path: helm
     helm:
       releaseName: code-raptor-dev
