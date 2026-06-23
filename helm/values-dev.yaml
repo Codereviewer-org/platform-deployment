@@ -40,7 +40,7 @@ services:
   execution:
     name: execution-service
     image: execution-service
-    tag: 246d8927a8eb2267e836e0bd8bb812fbe8938603
+    tag: 467a5ac35a882b09ff60c36b1a6ddd7c04b60b84
     port: 8002
     resources:
       requests:
@@ -58,7 +58,7 @@ services:
   review:
     name: review-service
     image: review-service
-    tag: 43c0347773e57e600eb90ec847ebd38f11a8319f
+    tag: 5df41fb0c793ac692731333257a831f87e7364b5
     port: 8004
     resources:
       requests:
@@ -68,7 +68,7 @@ services:
     name: frontend
     serviceName: frontend-service
     image: frontend
-    tag: 510579e1defb28da994fe647ef57575717d15404
+    tag: 95fafc050e034c8aad35c738f2abc303a3de5207
     port: 8501
     resources:
       requests:
