@@ -7,7 +7,7 @@ deploymentStrategy:
     maxSurge: 0
     maxUnavailable: 1
 image:
-  registry: thanuacr.azurecr.io
+  registry: coderaptorproacrh476d.azurecr.io
   pullPolicy: Always
 configMap:
   name: coderaptor-config
@@ -49,7 +49,7 @@ services:
   ai:
     name: ai-service
     image: ai-service
-    tag: 39a3335f372d63e621f47d93d556a592536c0faa
+    tag: ea27a15e3bd7566f367ccbfe77e81ef157806144
     port: 8003
     resources:
       requests:
