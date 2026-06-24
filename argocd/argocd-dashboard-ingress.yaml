@@ -5,6 +5,7 @@ metadata:
   namespace: argocd
 data:
   server.basehref: /argocd
+  server.insecure: "true"
   server.rootpath: /argocd
 ---
 apiVersion: networking.k8s.io/v1
@@ -13,7 +14,7 @@ metadata:
   name: argocd-server-ingress
   namespace: argocd
   annotations:
-    appgw.ingress.kubernetes.io/backend-protocol: "https"
+    appgw.ingress.kubernetes.io/backend-protocol: "http"
     appgw.ingress.kubernetes.io/health-probe-path: "/argocd/healthz"
     appgw.ingress.kubernetes.io/health-probe-status-codes: "200-399"
     appgw.ingress.kubernetes.io/request-timeout: "60"
@@ -28,4 +29,4 @@ spec:
           service:
             name: argocd-server
             port:
-              number: 443
+              number: 80
