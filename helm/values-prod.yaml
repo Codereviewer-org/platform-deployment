@@ -24,11 +24,11 @@ secret:
 serviceAccount:
   enabled: true
   name: coderaptor-workload-sa
-  clientId: "4f984e18-c8c3-473e-8098-76390467c02b"
+  clientId: "25eb44d6-459d-4081-af1a-250477f86646"
 secretProviderClass:
   name: kv-secrets
   provider: azure
-  userAssignedIdentityID: "4f984e18-c8c3-473e-8098-76390467c02b"
+  userAssignedIdentityID: "25eb44d6-459d-4081-af1a-250477f86646"
   keyvaultName: coderaptor-prod-h476d-kv
   tenantId: e3d774dc-b8bb-4368-987e-c4738a1b89e1
 services:
