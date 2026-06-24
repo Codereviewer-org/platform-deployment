@@ -27,6 +27,11 @@ configMap:
 secret:
   name: kv-secret
 
+serviceAccount:
+  enabled: true
+  name: coderaptor-workload-sa
+  clientId: "9a0d67f9-2147-4e65-9f2b-890884fff1d2"
+
 secretProviderClass:
   name: kv-secrets
   provider: azure

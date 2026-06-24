@@ -16,7 +16,9 @@ spec:
     metadata:
       labels:
         app: {{ $.Values.services.frontend.name }}
+        azure.workload.identity/use: "true"
     spec:
+      serviceAccountName: {{ $.Values.serviceAccount.name }}
       containers:
       - name: {{ $.Values.services.frontend.name }}
         image: {{ $.Values.image.registry }}/{{ $.Values.services.frontend.image }}:{{ $.Values.services.frontend.tag }}

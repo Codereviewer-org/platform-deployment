@@ -21,6 +21,10 @@ configMap:
     REVIEW_SERVICE_URL: "http://review-service:8004"
 secret:
   name: kv-secret
+serviceAccount:
+  enabled: true
+  name: coderaptor-workload-sa
+  clientId: "4f984e18-c8c3-473e-8098-76390467c02b"
 secretProviderClass:
   name: kv-secrets
   provider: azure
