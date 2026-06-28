@@ -53,7 +53,7 @@ services:
   ai:
     name: ai-service
     image: ai-service
-    tag: v1.2.0
+    tag: v1.3.0
     port: 8003
     resources:
       requests:
