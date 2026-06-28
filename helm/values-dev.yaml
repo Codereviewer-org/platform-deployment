@@ -72,7 +72,7 @@ services:
     name: frontend
     serviceName: frontend-service
     image: frontend
-    tag: 95fafc050e034c8aad35c738f2abc303a3de5207
+    tag: 5bfff0801e7ebbca7778deba5b6e7c5df6193bf8
     port: 8501
     resources:
       requests:
