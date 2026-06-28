@@ -44,7 +44,7 @@ services:
   execution:
     name: execution-service
     image: execution-service
-    tag: 467a5ac35a882b09ff60c36b1a6ddd7c04b60b84
+    tag: 4cab28c4dd92f8493277c17368afe06ce759b029
     port: 8002
     resources:
       requests:
