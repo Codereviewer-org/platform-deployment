@@ -72,7 +72,7 @@ services:
     name: frontend
     serviceName: frontend-service
     image: frontend
-    tag: v1.2.0
+    tag: v1.3.0
     port: 8501
     resources:
       requests:
