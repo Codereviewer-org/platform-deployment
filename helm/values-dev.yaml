@@ -53,7 +53,7 @@ services:
   ai:
     name: ai-service
     image: ai-service
-    tag: ea27a15e3bd7566f367ccbfe77e81ef157806144
+    tag: fcbb32cd50825a5fea1d9fd2f67e04366f2a1020
     port: 8003
     resources:
       requests:
